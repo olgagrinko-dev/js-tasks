@@ -2,5 +2,5 @@
 // поверхности, по введённому значению длины ребра. 
 const a = +prompt();
 
-console.log(a**2);
+console.log(a**3);
 console.log(6*a**2);

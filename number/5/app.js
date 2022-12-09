@@ -8,6 +8,5 @@ if (a % b === 0) {
     console.log('делится', a / b);
 } else {
     console.log('делится с остатком', a / b);
-
 }
 

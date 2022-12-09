@@ -3,6 +3,7 @@
 
 const a = +prompt();
 const b = +prompt();
+
 if(a % 1 === 0){
 console.log('целое число', true);
 }else {
