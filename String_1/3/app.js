@@ -21,6 +21,8 @@ if (a === 1) {
 } else {
     console.log(`ошибка ввода`);
 }
+
+
 switch (a) {
     case 1:
         console.log(`понедельник`);
