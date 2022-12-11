@@ -11,7 +11,6 @@ if (!isNaN(x)) {
     } else {
         console.log(`Обратного числа не существует`);
     }
-}
-else {
+} else {
     console.log(`Вы ввели не число`);
 }
