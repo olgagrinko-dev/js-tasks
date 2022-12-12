@@ -3,3 +3,11 @@
 // строку в строку вида
 // х-х-х-х-х-х...
 // hsChOoL -> h-s-c-h-o-o-l
+
+const str = prompt().trim().toLowerCase();
+
+if (isNaN(str)) {
+    console.log(str.split(``).join(`-`));
+} else {
+    console.log(`вы ввели не текст`);
+}
