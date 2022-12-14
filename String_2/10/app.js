@@ -3,7 +3,11 @@
 // • Вырежите из нее 2 и 3 слова.
 // • Найдите индекс 2 подстроки
 
-const str = prompt();  // я люблю JavaScript
-const newstr = str.split(` `) + str.slice(2);
+const str = prompt().trim().toLowerCase();  // я люблю JavaScript
+console.log(str.length);
 
-console.log(str.length + `символов` + newstr + newstr[0]);
+const subStr = str.slice(str.indexOf(` `) + 1);
+console.log(subStr);
+
+const index = str.indexOf(subStr);
+console.log(index);
