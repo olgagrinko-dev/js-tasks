@@ -4,10 +4,12 @@
 // • Найдите индекс 2 подстроки
 
 const str = prompt().trim().toLowerCase();  // я люблю JavaScript
-console.log(str.length + `символов`);
+console.log(`Количество символов ${str.length}`);
 
 const subStr = str.slice(str.indexOf(` `) + 1);
 console.log(subStr);
 
 const index = str.indexOf(subStr);
 console.log(index);
+
+
