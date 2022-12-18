@@ -4,14 +4,14 @@
 // 7 -> 7 – неч
 // 444444 -> 4 чет 4 чет 4 чет 4 чет 4 чет 4 чет
 
-const str = `4444444`;
+const str = `45624853`;
 let result = ``;
 
 for (let i = 0; i < str.length; i++) {
-    if (str[i] % 2 == 0) {       
-        result += str[i] + `чет`
+    if (str[i] % 2 == 0) {
+        result += str[i] + ` ` + `чет` + ` `
     } else {
-        result += str[i] + `нечет`
+        result += str[i] + ` ` + `нечет` + ` `
     }
 }
 console.log(result)
