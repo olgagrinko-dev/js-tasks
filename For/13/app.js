@@ -4,5 +4,10 @@
 // мем -> true
 // тест -> false
 
-const str = prompt().trim();
+const str = `anna`.trim().toLowerCase();
 
+if (str === str.split('').reverse().join('')) {
+    console.log (true);
+} else {
+    console.log (false); 
+}
