@@ -3,3 +3,24 @@
 // 2 -> **********
 // **********
 
+const n = 7;
+let figura = ``;
+
+
+for (let i = 0; i < n; i++) {
+    figura += `**********\n`;
+}
+console.log(figura);
+
+
+// 2-й вариант
+
+figura = ``;
+
+for (let i = 0; i < n; i++) {
+    figura += `*`.repeat(10);
+    if (i != n - 1) {
+        figura += `\n`;
+    }
+}
+console.log(figura);
