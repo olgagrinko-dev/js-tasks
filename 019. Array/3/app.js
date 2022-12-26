@@ -10,16 +10,16 @@ for (let i = 0; i < arr.length; i++) {
 console.log(result);
 
 let i = 0;
-let result1 = 1;
+let result_1 = 1;
 while (i < arr.length) {
-    result1 *= arr[i];
+    result_1 *= arr[i];
     i++
 } 
-console.log(result1);
+console.log(result_1);
 
 
-let result2 = 1;
+let result_2 = 1;
 for (const i of arr) {
-    result2 *= i;    
+    result_2 *= i;    
 }
- console.log(result2);
+ console.log(result_2);
