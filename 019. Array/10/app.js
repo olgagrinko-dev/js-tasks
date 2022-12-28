@@ -2,11 +2,11 @@
 // значения массива -> [1, 5] (for)
 
 const arr = [1, 2, 2, 3, 4, 4, 3, 4, 5].sort();
-const arr2 = [];
+const arr_2 = [];
 
 for (let i = 0; i <= arr.length; i++) {
     if (arr[i] !== arr[i + 1] && arr[i] !== arr[i - 1]) {
-        arr2.push(arr[i]);
+        arr_2.push(arr[i]);
     }
 }
-console.log(arr2);
+console.log(arr_2);

@@ -2,4 +2,5 @@
 
 const num = +prompt();
 const step = +prompt();
-console.log(num**step);
+
+console.log(num ** step);

@@ -8,6 +8,7 @@ const str = prompt().trim().toLowerCase();
 
 if (isNaN(str)) {
     console.log(str.split(``).join(`-`));
+
 } else {
     console.log(`вы ввели не текст`);
 }

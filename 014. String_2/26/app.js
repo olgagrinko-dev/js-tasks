@@ -8,6 +8,7 @@ const newStr = arr[arr.length - 1];
 
 if (newStr === `com` || newStr === `ru`) {
     console.log(true);
+    
 } else {
     console.log(false);
 }

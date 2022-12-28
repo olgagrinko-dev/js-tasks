@@ -11,7 +11,7 @@ if (!isNaN(num)) {
     if (Number.isInteger(sqrt)) {
         console.log(`квадратный корень` + sqrt);
     } else {
-        console.log(Math.round(sqrt))
+        console.log(Math.round(sqrt));
     }
 }
  else {

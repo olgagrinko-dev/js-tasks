@@ -11,13 +11,13 @@ let A = 0,
 
 for (let i = 0; i < str.length; i++) {
     if (str[i] === `A`) {
-        A += 1
+        A += 1;
     } else if (str[i] === `G`) {
-        G += 1
+        G += 1;
     } else if (str[i] === `C`) {
-        C += 1
+        C += 1;
     } else if (str[i] === `T`) {
-        T += 1
+        T += 1;
     }
 }
     console.log(`A - ${A} G - ${G} C - ${C} T - ${T}`);

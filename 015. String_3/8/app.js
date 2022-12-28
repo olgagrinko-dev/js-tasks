@@ -2,7 +2,7 @@
 // проверку на ввод текстовых значений hSСhOol -> #hschool
 
 const a = `hSChOol`.trim().toLowerCase();
-const b = `#`
+const b = `#`;
 
 if (isNaN(a)) {
 console.log(`${b}${a}`);

@@ -1,13 +1,13 @@
 // Задача на анаграмму. На входе 2 строки, необходимо выявить являются ли
 // введенные значения анаграммами
 
-const str1 = `нос`;
-const str2 = `сон`;
+const str_1 = `нос`;
+const str_2 = `сон`;
 
-const sortstr1 = str1.split(``).sort().join(``);
-const sortstr2 = str2.split(``).sort().join(``);
+const sortstr_1 = str_1.split(``).sort().join(``);
+const sortstr_2 = str_2.split(``).sort().join(``);
 
-if (sortstr1 === sortstr2) {
+if (sortstr_1 === sortstr_2) {
     console.log(`слова анаграмма`);
 } else {
     console.log(`слова не анаграмма`);

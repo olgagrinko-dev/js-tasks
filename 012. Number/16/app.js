@@ -6,5 +6,5 @@ let sqrt = Math.sqrt(num);
 
 if (!Number.isInteger(sqrt)) {
     sqrt = sqrt.toFixed(2);
-    
+
 } console.log('квадратный корень' + num + 'равен =' + sqrt);

@@ -9,10 +9,10 @@ let result = ``;
 
 for (let i = 0; i < str.length; i++) {
     if (str[i] % 2 == 0) {
-        result += str[i] + ` ` + `чет` + ` `
+        result += str[i] + ` ` + `чет` + ` `;
     } else {
-        result += str[i] + ` ` + `нечет` + ` `
+        result += str[i] + ` ` + `нечет` + ` `;
     }
 }
-console.log(result)
+console.log(result);
 

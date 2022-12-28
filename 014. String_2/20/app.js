@@ -3,15 +3,14 @@
 // преобразовать в верхний регистр (for)
 
 const str = prompt().trim().toLowerCase();
-let result = ``
+let result = ``;
 
 for (let i = 0; i < str.length; i++) {
     if (str[i] !== `_` && str[i - 1] !== `_`) {
-        result += str[i]
+        result += str[i];
     }
     if (str[i - 1] === `_`) {
-        result += str[i].toUpperCase()
+        result += str[i].toUpperCase();
     }
-
 }
 console.log(result);

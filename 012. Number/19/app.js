@@ -11,7 +11,7 @@ const value = b * b - 4 * a * c;
 if (value > 0) {
     const x1 = (-b - Math.sqrt(value)) / (2 * a);
     const x2 = (-b + Math.sqrt(value)) / (2 * a);
-    
+
     if (x1 > x2) {
         console.log(x2, x1);
     } else if (x1 < x2) {

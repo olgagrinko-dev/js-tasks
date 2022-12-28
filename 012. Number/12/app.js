@@ -6,4 +6,5 @@
 // 240 => 4 час 0 минут
 
 const m = +prompt();
-console.log(Math.trunc(m/60) +'час'+ m % 60 + 'минут');
+
+console.log(Math.trunc(m / 60) + 'час' + m % 60 + 'минут');

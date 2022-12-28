@@ -4,4 +4,5 @@
 const one = +prompt();
 const two = +prompt();
 const s = 1 / 2 * one * two;
+
 console.log(s);

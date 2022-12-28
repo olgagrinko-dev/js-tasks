@@ -4,18 +4,20 @@
 const a = +prompt();
 const b = +prompt();
 
-if(a % 1 === 0){
-console.log('целое число', true);
-}else {
+if (a % 1 === 0) {
+    console.log('целое число', true);
+
+} else {
     console.log('дробное число', false);
 }
 
-if(b % 1 === 0){
+if (b % 1 === 0) {
     console.log('целое число', true);
-    }else {
-        console.log('дробное число', false);
-    }
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
+} else {
+    console.log('дробное число', false);
+}
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);

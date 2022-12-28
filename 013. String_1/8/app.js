@@ -1,7 +1,7 @@
 // Пользователь вводит номер месяц. Необходимо вывести пору года по номеру
 // месяца (2 способа)
 
-const a = +prompt()
+const a = +prompt();
 
 if (a === 1 || a === 2 || a === 12) {
     console.log("зима");
@@ -43,6 +43,6 @@ switch (a) {
         break;
 
     default:
-        console.log(`ошибка ввода`)
+        console.log(`ошибка ввода`);
         break;
 }

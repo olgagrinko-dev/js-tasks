@@ -25,7 +25,7 @@ else {
 if (isNaN(x)) {
     console.log(`Нужно вводить число`);
 } else {
-    x = +x
+    x = +x;
 
     if (x > 0) {
         const a = Math.round(x / 100 % 10);
