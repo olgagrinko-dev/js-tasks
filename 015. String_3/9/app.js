@@ -2,9 +2,16 @@
 // хештег. Добавить проверку на ввод текстовых значений
 // hSСhOol СomPAnY-> #hschoolcompany
 
-const a = `hSChOol ComPAnY`.trim().toLowerCase();
+const a = `SChOol ComPAnY`.trim().toLowerCase();
 const b = `#`;
-const result = b+a.replace(` `,``);
+const result = b + a.replace(` `, ``);
 
-console.log(result);
+if (isNaN(a)) {
+    console.log(result);
+
+} else {
+    console.log(`ошибка ввода`);
+}
+
+
 

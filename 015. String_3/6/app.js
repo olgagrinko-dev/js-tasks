@@ -4,6 +4,7 @@
 
 
 const a = `https://www.instagram.com/hschool.official/`;
+
 if (a.startsWith(`https`) || a.startsWith(`http`) ) {
     console.log(a.slice(a.indexOf(`//`) + 2));
     

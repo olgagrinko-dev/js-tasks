@@ -5,6 +5,7 @@ const str = `olgagrinko@mail.ru`.toLowerCase();
 
 if (str.includes(`@`) && str.endsWith(`.ru`) || str.endsWith(`.com`)) {
     console.log(true);
+
 } else {
     console.log(false);
 }

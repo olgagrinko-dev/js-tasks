@@ -2,6 +2,6 @@
 // поиска и замены (2 способа)
 
 let str = prompt().trim();
-console.log(str.replaceAll('@', '!'));
 
+console.log(str.replaceAll('@', '!'));
 console.log(str.split(`@`).join(`!`));

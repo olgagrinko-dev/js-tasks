@@ -2,4 +2,5 @@
 // словами
 
 const str = `Happy new year`;
+
 console.log(str.split(` `).join(`-`));

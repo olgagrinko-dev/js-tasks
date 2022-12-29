@@ -4,4 +4,5 @@
 // я очень хороший текст => true
 
 const str = prompt().trim().toLowerCase();
+
 console.log(`я очень хороший текст => ${str.includes('хорош')}`);

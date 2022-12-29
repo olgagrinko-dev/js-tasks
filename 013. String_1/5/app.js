@@ -7,9 +7,11 @@ let a = prompt();
 
 if (isNaN(a)) {
     console.log(`ошибка`);
+
 } else {
     console.log(a.length);
     a = +a
+    
     if (a > 0) {
         console.log(`число ${a} положительное`);
     } else {

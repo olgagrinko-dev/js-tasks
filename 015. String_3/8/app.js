@@ -5,6 +5,9 @@ const a = `hSChOol`.trim().toLowerCase();
 const b = `#`;
 
 if (isNaN(a)) {
-console.log(`${b}${a}`);
+    console.log(`${b}${a}`);
+
+} else {
+    console.log(`ошибка ввода`);
 }
 

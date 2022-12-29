@@ -13,7 +13,7 @@ if (!isNaN(num)) {
     } else {
         console.log(Math.round(sqrt));
     }
-}
- else {
+
+} else {
     console.log(`это не число`);
 }

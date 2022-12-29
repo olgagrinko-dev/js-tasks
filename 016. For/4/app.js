@@ -6,6 +6,7 @@ const str = `10`.trim();
 
 if (2 < str && str < 11 || str === 26 && str < 30) {
     console.log(`верно`);
+    
 } else {
     console.log(`неверно`);
 }

@@ -9,6 +9,7 @@ const s = +prompt();
 if (!isNaN(v1) && !isNaN(v2) && !isNaN(s)) {
     const t = s / (v1 + v2);
     console.log(t + `час`);
+    
 } else {
     console.log(`это не число`);
 }

@@ -13,6 +13,7 @@ for (let i = 0; i < word.length / 2; i++) {
 }
 if (p) {
     console.log(`палиндром ${word}`);
+    
 } else {
     console.log(`это слово не палиндром`);
 }

@@ -3,6 +3,12 @@
 // 'string', 'StRiNg' -> true 
 
 const str_1 = `string`.toLowerCase();
-const str_2 = 'StRiNg'.toLowerCase(); 
+const str_2 = 'StRiNg'.toLowerCase();
 
-console.log(str_1 === str_2);
+if (str_1 === str_2) {
+    console.log(true);
+
+} else {
+    console.log(false);
+}
+

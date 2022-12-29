@@ -7,6 +7,7 @@ let x = `1234`;
 
 if (isNaN(x)) {
     console.log(`ошибка повторите ввод`);
+    
 } else {
     x = +x;
     
