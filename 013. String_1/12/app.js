@@ -11,6 +11,7 @@ if (!isNaN(x)) {
     x = x - a * 100;
     const b = Math.floor(x / 10);
     const c = x - b * 10;
+
     console.log(`Сумма ${a + b + c}`);
     console.log(`Произведение ${a * b * c}`);
 }
@@ -24,6 +25,7 @@ else {
 
 if (isNaN(x)) {
     console.log(`Нужно вводить число`);
+
 } else {
     x = +x;
 
@@ -34,6 +36,7 @@ if (isNaN(x)) {
 
         console.log(`Сумма цифр = ${a + b + c}`);
         console.log(`Произведение цифр = ${a * b * c}`);
+        
     } else {
         console.log(`Введите положительное число`);
     }

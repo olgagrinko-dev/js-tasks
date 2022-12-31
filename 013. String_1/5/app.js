@@ -11,7 +11,7 @@ if (isNaN(a)) {
 } else {
     console.log(a.length);
     a = +a
-    
+
     if (a > 0) {
         console.log(`число ${a} положительное`);
     } else {

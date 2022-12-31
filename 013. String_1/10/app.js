@@ -9,6 +9,7 @@ if (!isNaN(x)) {
 
     if (x !== 0) {
         console.log(`1 / ${x}`);
+
     } else {
         console.log(`Обратного числа не существует`);
     }

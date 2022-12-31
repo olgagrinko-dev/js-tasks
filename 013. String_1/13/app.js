@@ -7,10 +7,10 @@ let x = `1234`;
 
 if (isNaN(x)) {
     console.log(`ошибка повторите ввод`);
-    
+
 } else {
     x = +x;
-    
+
     const a = Math.round(x / 1000 % 10);
     const b = Math.round(x / 100 % 10);
     const c = Math.round(x / 10 % 10);

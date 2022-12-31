@@ -7,7 +7,7 @@ const x_2 = prompt();
 
 if (isNaN(x_1) || isNaN(x_2)) {
     console.log(`это не число`);
-    
+
 } else {
     console.log((x_1 >= 0 && x_1 <= 10 || x_2 >= 0 && x_2 <= 10) ? `I’m ${x_1}${x_2}` : `эти числа не соответствуют диапозону`);
 

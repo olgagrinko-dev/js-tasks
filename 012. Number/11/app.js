@@ -17,7 +17,6 @@ if (b % 1 === 0) {
 } else {
     console.log('дробное число', false);
 }
-
 console.log(a + b);
 console.log(a - b);
 console.log(a * b);

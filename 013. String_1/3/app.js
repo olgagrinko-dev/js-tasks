@@ -52,7 +52,7 @@ switch (a) {
         console.log(`воскресенье`);
         break;
 
-    default: console.log(`ошибка ввода`)
+    default: console.log(`ошибка ввода`);
         break;
 
 }

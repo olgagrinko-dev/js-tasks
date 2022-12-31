@@ -5,7 +5,7 @@ const str = prompt(``);
 
 if (isNaN(str)) {
     console.log(str.split(``));
-    
+
 } else {
     console.log(`вы ввели не текст`);
 }

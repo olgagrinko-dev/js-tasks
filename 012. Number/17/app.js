@@ -7,7 +7,7 @@ const b = +prompt();
 
 if (a % b === 0) {
     console.log('делится', a / b);
-    
+
 } else {
-    console.log('делится c остатком', a % b );
+    console.log('делится c остатком', a % b);
 }
