@@ -10,6 +10,7 @@ let A = 0,
     T = 0;
 
 for (let i = 0; i < str.length; i++) {
+
     if (str[i] === `A`) {
         A += 1;
     } else if (str[i] === `G`) {
@@ -19,7 +20,7 @@ for (let i = 0; i < str.length; i++) {
     } else if (str[i] === `T`) {
         T += 1;
     }
-}
-    console.log(`A - ${A} G - ${G} C - ${C} T - ${T}`);
+
+} console.log(`A - ${A} G - ${G} C - ${C} T - ${T}`);
 
 

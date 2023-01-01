@@ -4,6 +4,7 @@
 const str = prompt().trim();
 
 if (isNaN(str)) {
+    
     if (str === `hschool`) {
         console.log(true);
     } else {

@@ -6,11 +6,12 @@ const str = prompt().trim().toLowerCase();
 let result = ``;
 
 for (let i = 0; i < str.length; i++) {
+
     if (str[i] !== `_` && str[i - 1] !== `_`) {
         result += str[i];
     }
     if (str[i - 1] === `_`) {
         result += str[i].toUpperCase();
     }
-}
-console.log(result);
+    
+} console.log(result);

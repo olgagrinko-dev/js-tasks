@@ -6,12 +6,12 @@ const str = prompt().trim();
 let sum = 0;
 
 for (let i = 0; i < str.length; i++) {
-    
+
     if (isNaN(str[i]) && str[i] === str[i].toLowerCase()) {
         sum += 1;
-    } 
-}
-console.log (sum);  
+    }
+
+} console.log(sum);
 
 
 
