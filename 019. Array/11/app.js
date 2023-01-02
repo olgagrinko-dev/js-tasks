@@ -5,8 +5,9 @@ const arr = [null, 2, true, 100, `new`, 55];
 const newarr = [];
 
 for (let i = 0; i <= arr.length; i++) {
+    
     if (typeof arr[i] === `number`) {
         newarr.push(arr[i]);
     }
-}
-console.log(newarr);
+
+} console.log(newarr);

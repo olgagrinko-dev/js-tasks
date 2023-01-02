@@ -7,7 +7,7 @@ const a = `135`;
 
 if (isNaN(a)) {
     console.log(`ошибка ввода`);
-    
+
 } else {
     let sum = 0;
 

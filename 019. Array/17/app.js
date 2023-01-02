@@ -7,6 +7,6 @@ const repeat = 10;
 let i = 0;
 while (i < repeat) {
     console.log(str);
-    i++
+    i++;
 }
 

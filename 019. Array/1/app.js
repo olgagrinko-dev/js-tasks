@@ -9,5 +9,5 @@ for (let i = 1; i <= a; i++) {
 let i = 1;
 while (i <= a) {
     console.log(i);
-    i++
+    i++;
 }

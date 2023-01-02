@@ -3,22 +3,22 @@
 // 123@1@@34 -> 123134
 
 const str = `123@1@@34`.trim();
-let result = ``
+let result = ``;
 
 if (str.length > 0) {
 
     for (let i = 0; i < str.length; i++) {
-        
+
         if (str[i] === `@`) {
-            continue
+            continue;
 
         } else {
-            result += str[i]
+            result += str[i];
         }
     }
     console.log(result);
 
 } else {
-    console.log(`ошибка ввода`)
+    console.log(`ошибка ввода`);
 }
 

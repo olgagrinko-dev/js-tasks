@@ -19,8 +19,9 @@ figura = ``;
 
 for (let i = 0; i < n; i++) {
     figura += `*`.repeat(10);
+
     if (i != n - 1) {
         figura += `\n`;
     }
-}
-console.log(figura);
+
+} console.log(figura);

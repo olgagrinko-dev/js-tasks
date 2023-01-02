@@ -14,6 +14,7 @@ if (!isNaN(length)) {
         arr.push(number);
     }
     console.log(arr);
+
 } else {
     console.log(`Вы ввели не число`);
 }

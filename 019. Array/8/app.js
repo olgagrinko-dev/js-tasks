@@ -5,16 +5,18 @@ const arr = [1, 2, 2, 3, 4, 4, 3, 4, 5];
 const newarr = [];
 
 for (let i = 0; i < arr.length; i++) {
+
     if (!newarr.includes(arr[i])) {
         newarr.push(arr[i]);
     }
-}
-console.log(newarr);
+
+} console.log(newarr);
 
 
 for (const i of arr) {
+
     if (!newarr.includes(i)) {
         newarr.push(i);
     }
-}
-console.log(newarr);
+
+} console.log(newarr);

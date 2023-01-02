@@ -9,6 +9,7 @@ const sortstr_2 = str_2.split(``).sort().join(``);
 
 if (sortstr_1 === sortstr_2) {
     console.log(`слова анаграмма`);
+
 } else {
     console.log(`слова не анаграмма`);
 }

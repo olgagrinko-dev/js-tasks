@@ -13,6 +13,7 @@ if (str === str.split('').reverse().join('')) {
 }
 
 // 2 - й вариант
+
 let value = `anna`;
 let reverseValue = ``;
 

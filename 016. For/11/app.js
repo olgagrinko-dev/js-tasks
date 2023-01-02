@@ -10,5 +10,4 @@ for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 4) {
         result += 1;
     }
-}
-console.log(result);
+} console.log(result);
