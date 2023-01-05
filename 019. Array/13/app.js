@@ -9,5 +9,5 @@ for (let i of arr) {
     if (i > 0) {
         sum += i;
     }
-
-} console.log(sum);
+} 
+console.log(sum);

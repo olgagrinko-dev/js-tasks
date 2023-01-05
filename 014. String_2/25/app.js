@@ -21,6 +21,7 @@ for (let i = 0; i < str.length; i++) {
         T += 1;
     }
 
-} console.log(`A - ${A} G - ${G} C - ${C} T - ${T}`);
+} 
+console.log(`A - ${A} G - ${G} C - ${C} T - ${T}`);
 
 

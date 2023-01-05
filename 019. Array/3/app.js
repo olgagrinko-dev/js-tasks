@@ -6,20 +6,20 @@ let result = 1;
 
 for (let i = 0; i < arr.length; i++) {
     result *= arr[i];
-
-} console.log(result);
+} 
+console.log(result);
 
 let i = 0;
 let result_1 = 1;
 while (i < arr.length) {
     result_1 *= arr[i];
     i++;
-
-} console.log(result_1);
+} 
+console.log(result_1);
 
 
 let result_2 = 1;
 for (const i of arr) {
     result_2 *= i;
-
-} console.log(result_2);
+} 
+console.log(result_2);

@@ -9,4 +9,5 @@ for (let i = 0; i < arr.length; i++) {
         min = arr[i];
     }
 
-} console.log(min);
+} 
+console.log(min);

@@ -9,4 +9,5 @@ for (let i = 0; i < str.length; i++) {
     const fromOne = str[i].slice(1);
     result += F + fromOne + ` `;
 
-} console.log(result); 
+} 
+console.log(result); 

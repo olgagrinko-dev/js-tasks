@@ -9,8 +9,8 @@ for (let i = 0; i < arr.length; i++) {
     if (!newarr.includes(arr[i])) {
         newarr.push(arr[i]);
     }
-
-} console.log(newarr);
+} 
+console.log(newarr);
 
 
 for (const i of arr) {
@@ -18,5 +18,5 @@ for (const i of arr) {
     if (!newarr.includes(i)) {
         newarr.push(i);
     }
-
-} console.log(newarr);
+} 
+console.log(newarr);

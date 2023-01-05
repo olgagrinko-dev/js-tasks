@@ -5,6 +5,6 @@ let result = 0;
 while (i <= 100) {
     result += i;
     i++;
-
-} console.log(result);
+} 
+console.log(result);
 

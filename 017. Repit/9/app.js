@@ -24,4 +24,5 @@ for (let i = 0; i < n; i++) {
         figura += `\n`;
     }
 
-} console.log(figura);
+} 
+console.log(figura);

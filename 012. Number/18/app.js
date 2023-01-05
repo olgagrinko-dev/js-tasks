@@ -7,5 +7,6 @@ let sqrt = Math.sqrt(num);
 if (!Number.isInteger(sqrt)) {
     sqrt = Math.round(sqrt);
 
-} console.log('квадратный корень' + sqrt);
+}
+console.log('квадратный корень' + sqrt);
 

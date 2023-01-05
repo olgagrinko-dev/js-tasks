@@ -14,5 +14,6 @@ for (let i = 1; i < str.length; i++) {
     }
     result += str[i];
     
-} console.log(result);
+} 
+console.log(result);
 

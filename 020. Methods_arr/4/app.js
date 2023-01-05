@@ -5,6 +5,7 @@ let arr = [];
 while (true) {
     console.log(`+`);
     arr.push(prompt(`введите значение`));
+    
     if (arr.length === 5) {
         console.log(arr);
         break;

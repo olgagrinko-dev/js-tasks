@@ -15,5 +15,6 @@ for (let i = 0; i < str.length; i++) {
     } else {
         result += str[i] + ` ` + `нечет` + ` `;
     }
-} console.log(result);
+} 
+console.log(result);
 

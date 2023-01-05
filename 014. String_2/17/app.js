@@ -9,4 +9,5 @@ for (let i = 0; i < str.length; i++) {
         sum += 1;
     }
     
-} console.log(str.length - sum);
+} 
+console.log(str.length - sum);

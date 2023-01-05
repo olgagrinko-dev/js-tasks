@@ -8,7 +8,6 @@ const arr = [];
 for (let i = 0; i < value; i++) {
     let a = prompt();
     arr.push(a);
-
 }
 
 let result = arr.filter(function (elem) {

@@ -14,4 +14,5 @@ let str = ``;
 for (let i = n; i > 0; i--) {
     str += `*`.repeat(i) + `\n`;
 
-} console.log(str);
+} 
+console.log(str);
