@@ -5,8 +5,21 @@
 const arr = [];
 const value = prompt();
 
-if (isNaN(arr)) {
-    console.log(true);
-} else {
-    console.log(false);
+for (let i = 0; i < value; i++) {
+    arr.push(prompt());
 }
+
+let result_1 = true;
+arr.forEach(function (elem) {
+    if (isNaN(elem)) {
+        result_1 = false;
+    }
+})
+console.log(result_1);
+
+
+// 2-й способ
+let result_2 = arr.every(function (elem) {
+    return !isNaN(elem);
+})
+console.log(result_2);

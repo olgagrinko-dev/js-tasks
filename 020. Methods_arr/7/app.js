@@ -3,18 +3,10 @@
 
 const arr = [`hschool`, `hschool_0`, `hschool_1`];
 
+// 1-й вариант
 console.log(arr[0],arr[2]);
 
-
 // 2-й вариант
-let newarr = [];
-for (let i = 0; i < arr.length; i++) {
-    newarr.push(arr[0], arr[2]);
-}
-console.log(newarr);
-
-
-// 3-й вариант
-
+console.log(arr.shift(), arr.pop());
 
 
