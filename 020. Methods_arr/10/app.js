@@ -4,3 +4,16 @@
 // [1, 2, 3, 4, 5, 6] -> [“нечет”, “чет”, “нечет”, “чет”, “нечет”, “чет”]
 // [1, 24, 5] -> [“нечет”, “чет”, “нечет”]
 // Использовать map
+
+const arr = [];
+const value = prompt();
+
+let result = ``;
+for (let i = 0; i < value; i++) {
+    if (arr[i] % 2 == 0) {
+        result += arr[i] + ` ` + ` чет` + ` `;
+    } else {
+        result += arr[i] + ` ` + ` нечет` + ` `;
+    }
+}
+console.log(result);

@@ -9,4 +9,6 @@ console.log(arr[0],arr[2]);
 // 2-й вариант
 console.log(arr.shift(), arr.pop());
 
+// 3-й вариант
+
 

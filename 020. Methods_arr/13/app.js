@@ -3,3 +3,23 @@
 // значением javascript. Необходимо создать новый массив из отфильтрованных
 // значений, где строка массива arr включают значение переменной javascript.
 // Проверка на ввод только текстовых значений на заполнение массива. forEach
+
+const n = prompt();
+const arr = [];
+const lenguech = `javascript`;
+
+for (let i = 0; i < n; i++) {
+    let value = prompt();
+    if (isNaN(value)) {
+        arr.push(value);
+    }
+}
+
+const newarr = [];
+arr.forEach(function (elem) {
+    if (elem.includes(lenguech)) {
+        newarr.push(elem);
+    }
+})
+console.log(newarr);
+
