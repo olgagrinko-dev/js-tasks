@@ -6,18 +6,18 @@
 
 const n = prompt();
 const arr = [];
-const lenguech = `javascript`;
+const str = `javascript`;
 
 for (let i = 0; i < n; i++) {
     let value = prompt();
-    if (isNaN(value)) {
+    if (isNaN(value)) {        
         arr.push(value);
     }
 }
 
 const newarr = [];
 arr.forEach(function (elem) {
-    if (elem.includes(lenguech)) {
+    if (elem.includes(str)) {
         newarr.push(elem);
     }
 })

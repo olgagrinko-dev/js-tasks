@@ -13,5 +13,5 @@ for (let i = 0; i < n; i++) {
     }
 }
 
-const result = [... arr_1, ...arr_2];
+const result = [...arr_1, ...arr_2];
 console.log(result);

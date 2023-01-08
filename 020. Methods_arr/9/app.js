@@ -15,15 +15,15 @@ for (let i = 0; i < n; i++) {
 
 let sum_1 = 0;
 arr.forEach(function (elem) {
-    sum_1 += elem;
+    sum_1 += +elem;
 })
 console.log(`сумма: ${sum_1}`);
 
 // 2-й способ
 
-// let sum_2 = arr.reduce(function (sum, item) {
-//     return sum + item;
-// }, 0)
-// console.log(`сумма: ${sum_2}`);
+let sum_2 = arr.reduce(function (res, el) {
+    return res + +el;
+}, 0)
+console.log(`сумма: ${sum_2}`);
 
 

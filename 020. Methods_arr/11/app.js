@@ -18,7 +18,7 @@ let result = 1;
 arr.forEach(function(elem) {
 result *= elem;
 })
-console.log(result);
+console.log(`произведение: ${result}`);
 
 // 2-й способ reduce
 

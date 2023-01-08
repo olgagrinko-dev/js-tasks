@@ -7,9 +7,16 @@ const arr = [];
 
 for (let i = 0; i < n; i++) {
     let value = prompt();
-    if (isNaN(value)) {
-        arr.push(value);
-    }
+    if (isNaN(value)) continue
+    arr.push(value);
 }
+// console.log(arr);
 
-
+const sum = 0;
+arr.forEach(function (elem) {
+    if (elem === 0) {
+        break
+    }
+    sum += +elem;
+})
+console.log(sum);

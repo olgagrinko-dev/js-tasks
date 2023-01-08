@@ -4,10 +4,10 @@
 // только чисел после каждого введенного элемента.
 // 1, 1, 3, 4, 4, 4, 2, 5 -> 1, 2, 3, 4, 5
 
+const n = prompt();
 const arr = [];
-const value = prompt();
 
-for (let i = 0; i < value; i++) {
+for (let i = 0; i < n; i++) {
     arr.push(prompt());
 }
 

@@ -5,15 +5,21 @@
 // [1, 24, 5] -> [“нечет”, “чет”, “нечет”]
 // Использовать map
 
+const n = prompt();
 const arr = [];
-const value = prompt();
 
-let result = ``;
-for (let i = 0; i < value; i++) {
-    if (arr[i] % 2 == 0) {
-        result += arr[i] + ` ` + ` чет` + ` `;
-    } else {
-        result += arr[i] + ` ` + ` нечет` + ` `;
-    }
+for (let i = 0; i < n; i++) {
+    let value = prompt();
+    if (isNaN(value)) continue
+    arr.push(value);
 }
+
+const result = arr.map(function (elem) {
+    if (elem % 2 === 0) {
+        return `${elem}: чет`;
+    } else {
+        return `${elem}: нечет`;
+    }
+})
 console.log(result);
+
