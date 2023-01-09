@@ -12,11 +12,14 @@ for (let i = 0; i < n; i++) {
 }
 // console.log(arr);
 
-const sum = 0;
+let sum = 0;
+let check = true;
 arr.forEach(function (elem) {
-    if (elem === 0) {
-        break
+    if (elem == 0) {
+        check = false;
     }
-    sum += +elem;
+    if (check) {
+        sum += +elem;
+    }
 })
 console.log(sum);
