@@ -12,9 +12,13 @@
 
 const n = prompt();
 const arr = [1, 2, 3, 4, 5, 6];
+const result = [];
 
-for (let i = 0; i < n; i++) {
-    if (isNaN(n)) {
-
+for (let i = 0; i < arr.length; i += n) {
+    const group = [];
+    for (let j = i; j < (i + n) && j < arr.length; j++) {
+        group.push(arr[j]);
     }
+    result.push(group);
 }
+console.log(result);
