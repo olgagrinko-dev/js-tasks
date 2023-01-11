@@ -10,15 +10,24 @@
 // 5 -> [[1, 2, 3, 4, 5], [6]]
 // 6 -> [[1, 2, 3, 4, 5, 6]]
 
-const n = +prompt();
-const arr = [1, 2, 3, 4, 5, 6];
+const n = +prompt(`кол-во элементов которое будет содерджать внутренний массив`);
+const array = [1, 2, 3, 4, 5, 6];
 const result = [];
 
-for (let i = 0; i < arr.length; i += n) {
+
+// 1-й способ
+for (let i = 0; i < array.length; i += n) {
     const group = [];
-    for (let j = i; j < (i + n) && j < arr.length; j++) {
-        group.push(arr[j]);
+    for (let j = i; j < (i + n) && j < array.length; j++) {
+        group.push(array[j]);
     }
     result.push(group);
+}
+console.log(result);
+
+
+// 2-й способ
+for (let i = 0; i < array.length; i += n) {
+    result.push(array.slice(i, i + n));
 }
 console.log(result);
